@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>currentDocument</key>
+	<string>Desktop/Projects/Receipted/css/custom-theme/style.css</string>
+	<key>documents</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>../../index.html</string>
+			<key>lastUsed</key>
+			<date>2011-11-12T00:15:00Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>style.css</string>
+			<key>lastUsed</key>
+			<date>2011-11-12T00:15:00Z</date>
+			<key>selected</key>
+			<true/>
+		</dict>
+	</array>
+	<key>fileHierarchyDrawerWidth</key>
+	<integer>200</integer>
+	<key>metaData</key>
+	<dict>
+		<key>Desktop/Projects/Receipted/css/custom-theme/style.css</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>1</integer>
+				<key>line</key>
+				<integer>84</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>28</integer>
+		</dict>
+		<key>Desktop/Projects/Receipted/index.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>25</integer>
+				<key>line</key>
+				<integer>48</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>11</integer>
+		</dict>
+	</dict>
+	<key>openDocuments</key>
+	<array>
+		<string>Desktop/Projects/Receipted/index.html</string>
+		<string>Desktop/Projects/Receipted/css/custom-theme/style.css</string>
+	</array>
+	<key>showFileHierarchyDrawer</key>
+	<true/>
+	<key>windowFrame</key>
+	<string>{{210, 4}, {1070, 774}}</string>
+</dict>
+</plist>
