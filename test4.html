@@ -4,15 +4,13 @@
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Receipted 2</title>
+	<title>Receipted 4</title>
 	<meta name="generator" content="TextMate http://macromates.com/">
 	<meta name="author" content="Beto Juarez III">
 	<meta name="description" content="Receipted provides beatifully designed e-mail receipts for merchants and customers for free.">
 	<meta name="keywords" content="receipts, html, e-mail, free, API, e-commerce, e-stores">
 	<LINK REL=StyleSheet HREF="css/custom-theme/style.css" TYPE="text/css">
-	<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
-	<script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
-	<script type="text/javascript" src="js/jquery.jqtransform.js">	</script>		
+	<script src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script>	
 </head>
 <body>
 
@@ -81,28 +79,67 @@
 		</h4>
 	</div>
 	
-	<br>
-	<div id="specialOffer">
-		Special Offer:<br>
-		<h4>
-			<table width="100%" cellpadding="0px" border="0px" style="border-spacing:0px">
-				<tr>
-					<td>10% off of your next purchase. Expires 12/31/2011.
-					<td style="text-align:right"><a href="http://majorblazer.com/specialoffer">Click to redeem</a>
-				</tr>
-			</table>
-		</h4>
-	</div>
-	
 	<div id="poweredBy">
 		<h4>
 			Powered by Receipted<br>
 			<a href="mailto:betoiii@gmail.com">Feedback</a>
 		</h4>
 	</div>
-	
-	
+
 </div>
 
+<div id="suggestedProductsVert" class="rounded">
+	You may also like:	
+	<br>
+	<!-- scroller code -->
+	<a class="prev browse up"></a>
+
+	<div class="scrollableVert">   
+
+	   <div class="itemsVert">
+		<center>
+	      <!-- 1-5 -->
+	      <div>
+		     <img src="http://farm6.static.flickr.com/5053/5536122277_75f55915b4_t.jpg" />
+   	         <img src="http://farm7.static.flickr.com/6203/6083407456_0d8ba3e0e8_t.jpg" />
+	         <img src="http://farm3.static.flickr.com/2792/4441684993_be5d94b60d_t.jpg" />
+	         <img src="http://farm7.static.flickr.com/6069/6134320763_b935198bf2_t.jpg" />
+	         <img src="http://farm3.static.flickr.com/2741/5727617386_1a4a538273_t.jpg" />
+	      </div>
+
+	      <!-- 5-10 -->
+	      <div>
+	         <img src="http://farm6.static.flickr.com/5258/5420026877_c9ddea00b4_t.jpg" />
+	         <img src="http://farm4.static.flickr.com/3663/5800164873_8ccda1b79b_t.jpg" />
+	         <img src="http://farm3.static.flickr.com/2190/5714073621_bb230d66b0_t.jpg" />
+	         <img src="http://farm4.static.flickr.com/3450/3989900038_1e98a0d70c_t.jpg" />
+	         <img src="http://farm4.static.flickr.com/3018/5724763417_4065e49e25_t.jpg" />
+	      </div>
+
+	      <!-- 10-15 -->
+	      <div>
+	         <img src="http://farm7.static.flickr.com/6157/6138872232_a86604043c_t.jpg" />
+	         <img src="http://farm1.static.flickr.com/154/427367591_60f6b29644_t.jpg" />
+		     <img src="http://farm7.static.flickr.com/6123/5967753564_8b413fa0c8_t.jpg" />
+	         <img src="http://farm7.static.flickr.com/6019/5886564766_4504018269_t.jpg" />
+	         <img src="http://farm5.static.flickr.com/4016/5081954578_36115f416b_t.jpg" />
+	      </div>
+		</center>
+	   </div>
+
+	</div>
+
+	<a class="next browse down"></a>
+
+	<script>
+	$(function() {
+
+		// initialize scrollable
+		$(".scrollableVert").scrollable({ vertical: true, mousewheel: true, circular: true });
+
+	});
+	</script>	
+</div>
+	
 </body>
 </html>

@@ -6,8 +6,7 @@
 
 body
 {
-	background-color:rgb(150,150,150);
-	
+	background-color:rgb(236,210,107);
 }
 
 h4
@@ -15,8 +14,17 @@ h4
 	display:inline;
 	font-weight:normal;
 	color:rgb(100,100,100);
-	font-family:"Century Gothic";
+	font-family:"Century Gothic",Helvetica,Verdana;
 	font-size:90%;
+}
+
+h2
+{
+	display:inline;
+	font-weight:normal;
+	color:rgb(100,100,100);
+	font-family:"Century Gothic",Helvetica,Verdana;
+	font-size:100%;
 }
 
 a:link
@@ -41,6 +49,25 @@ a:hover
 {
 	color:rgb(100,100,100);
 	text-decoration: none; 
+}
+
+#homeLogo
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:262px;
+	position:relative;
+	top:3em;
+}
+
+#homePitch
+{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	top: 3em;
+	color:rgb(72,48,0);
 }
 
 #container
@@ -111,6 +138,7 @@ html>body .rounded
 	float:left;
 	position:relative;
 	left:5px;
+	height:100%;
 }
 
 #itemOneDescription
@@ -165,6 +193,17 @@ html>body .rounded
 	margin-right:auto;
 }
 
+#suggestedProductsVert
+{
+	font-family:"Century Gothic";
+	float:right;
+	position:relative;
+	bottom:420px;
+	right:13.2em;
+	background-color:rgb(220,220,220);
+	padding:2px;
+}
+
 /*image scroller code by jquery tools*/
 
 /*
@@ -180,6 +219,15 @@ html>body .rounded
 	height:90px;
 }
 
+.scrollableVert {
+
+	/* required settings */
+	position:relative;
+	overflow:hidden;
+	width: 138px;
+	height:276px;
+}
+
 /*
 	root element for scrollable items. Must be absolutely positioned
 	and it should have a extremely large width to accommodate scrollable items.
@@ -191,6 +239,14 @@ html>body .rounded
 	/* this cannot be too large */
 	width:20000em;
 	position:absolute;
+	height:90px;
+}
+
+.scrollable .itemsVert {
+	/* this cannot be too large */
+	width:10000em;
+	position:absolute;
+	height:20000em;
 }
 
 /*
@@ -202,7 +258,7 @@ html>body .rounded
 	float:left;
 }
 
-/* this makes it possible to add next button beside scrollable */
+/* this makes it possible to add next button beside  */
 .scrollable {
 	float:left;	
 }
@@ -219,6 +275,7 @@ a.browse {
 	font-size:1px;
 }
 
+
 /* right */
 a.right 				{ background-position: 0px -20px; clear:right; margin-right: 0px;}
 a.right:hover 		{ background-position:-20px -20px; }
@@ -230,6 +287,21 @@ a.left				{ margin-left: 0px; }
 a.left:hover  		{ background-position:-20px 0; }
 a.left:active  	{ background-position:-40px 0; }
 
+/* up and down */
+a.up, a.down		{ 
+	background:url(vert_large.png) no-repeat; 
+	float: none;
+	margin: 10px auto;
+}
+
+/* up */
+a.up:hover  		{ background-position:-20px 0; }
+a.up:active  		{ background-position:-40px 0; }
+
+/* down */
+a.down 				{ background-position: 0 -20px; }
+a.down:hover  		{ background-position:-20px -20px; }
+a.down:active  	{ background-position:-40px -20px; }
 
 /* disabled navigational button */
 a.disabled {

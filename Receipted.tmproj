@@ -8,23 +8,91 @@
 	<array>
 		<dict>
 			<key>filename</key>
-			<string>index.html</string>
+			<string>Test1.html</string>
 			<key>lastUsed</key>
-			<date>2011-11-15T19:54:14Z</date>
+			<date>2011-11-21T03:05:14Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>css/custom-theme/style.css</string>
 			<key>lastUsed</key>
-			<date>2011-11-15T19:54:14Z</date>
+			<date>2011-11-24T20:29:24Z</date>
 			<key>selected</key>
 			<true/>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Test2.html</string>
+			<key>lastUsed</key>
+			<date>2011-11-21T03:05:10Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>test3.html</string>
+			<key>lastUsed</key>
+			<date>2011-11-24T20:28:20Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>test4.html</string>
+			<key>lastUsed</key>
+			<date>2011-11-24T20:29:24Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>index.html</string>
+			<key>lastUsed</key>
+			<date>2011-11-24T18:17:37Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
+		<key>Test1.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>5</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>28</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>72</integer>
+				<key>line</key>
+				<integer>11</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>5</integer>
+			</dict>
+		</dict>
+		<key>Test2.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>19</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>css/custom-theme/style.css</key>
 		<dict>
 			<key>caret</key>
@@ -32,31 +100,63 @@
 				<key>column</key>
 				<integer>14</integer>
 				<key>line</key>
-				<integer>105</integer>
+				<integer>245</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>90</integer>
+			<integer>216</integer>
 		</dict>
 		<key>index.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>57</integer>
+				<integer>50</integer>
 				<key>line</key>
-				<integer>55</integer>
+				<integer>21</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>15</integer>
+			<integer>0</integer>
+		</dict>
+		<key>test3.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>21</integer>
+				<key>line</key>
+				<integer>92</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>83</integer>
+		</dict>
+		<key>test4.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>25</integer>
+				<key>line</key>
+				<integer>98</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>103</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>index.html</string>
+		<string>Test1.html</string>
+		<string>Test2.html</string>
+		<string>test3.html</string>
+		<string>test4.html</string>
 		<string>css/custom-theme/style.css</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
