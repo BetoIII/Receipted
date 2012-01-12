@@ -16,7 +16,7 @@
 			<key>filename</key>
 			<string>css/custom-theme/style.css</string>
 			<key>lastUsed</key>
-			<date>2011-11-24T20:29:24Z</date>
+			<date>2011-12-05T23:29:40Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
@@ -30,13 +30,13 @@
 			<key>filename</key>
 			<string>test3.html</string>
 			<key>lastUsed</key>
-			<date>2011-11-24T20:28:20Z</date>
+			<date>2011-12-05T23:29:40Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>test4.html</string>
 			<key>lastUsed</key>
-			<date>2011-11-24T20:29:24Z</date>
+			<date>2011-12-05T23:29:40Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -98,14 +98,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>14</integer>
+				<integer>12</integer>
 				<key>line</key>
-				<integer>245</integer>
+				<integer>140</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>216</integer>
+			<integer>110</integer>
 		</dict>
 		<key>index.html</key>
 		<dict>
@@ -133,7 +133,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>83</integer>
+			<integer>21</integer>
 		</dict>
 		<key>test4.html</key>
 		<dict>

@@ -7,6 +7,7 @@
 body
 {
 	background-color:rgb(236,210,107);
+	font-family:"Century Gothic",Helvetica,Verdana;
 }
 
 h4
@@ -18,6 +19,15 @@ h4
 	font-size:90%;
 }
 
+/*same as h4*/
+table
+{
+	font-weight:normal;
+	color:rgb(100,100,100);
+	font-family:"Century Gothic",Helvetica,Verdana;
+	font-size:90%;	
+}
+
 h2
 {
 	display:inline;
@@ -26,6 +36,7 @@ h2
 	font-family:"Century Gothic",Helvetica,Verdana;
 	font-size:100%;
 }
+
 
 a:link
 {
@@ -41,7 +52,7 @@ a:active
 
 a:visited
 {
-	color:rgb(100,100,100);
+	color:rgb(200,100,100);
 	text-decoration: none; 
 }
 
@@ -126,7 +137,7 @@ html>body .rounded
 {
 	background-color:rgb(220,220,220);
 	width:90%;
-	height:70px;
+	height:100px;
 	margin-left:auto;
 	margin-right:auto;
 	padding:5px;
@@ -144,27 +155,24 @@ html>body .rounded
 #itemOneDescription
 {
 	float:left;
-	font-family:"Century Gothic";
+	font-size:120%;
 	margin-left:15px;
-	position:absolute;
-	top:38%;
-	left:9%;
+	position:relative;
+	top:37%;
 }
 
 #itemOnePrice
 {
 	float:right;
-	font-family:"Century Gothic";
 	font-size:150%;
 	position:relative;
-	top:28%;
+	top:34%;
 	right:5%;
 }
 
 #shippingInfo
 {
 	width:90%;
-	font-family:"Century Gothic";
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -172,7 +180,6 @@ html>body .rounded
 #paymentInfo
 {
 	width:90%;
-	font-family:"Century Gothic";
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -180,7 +187,6 @@ html>body .rounded
 #specialOffer
 {
 	width:90%;
-	font-family:"Century Gothic";
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -188,14 +194,12 @@ html>body .rounded
 #suggestedProducts
 {
 	width:90%;
-	font-family:"Century Gothic";
 	margin-left:auto;
 	margin-right:auto;
 }
 
 #suggestedProductsVert
 {
-	font-family:"Century Gothic";
 	float:right;
 	position:relative;
 	bottom:420px;
@@ -203,6 +207,11 @@ html>body .rounded
 	background-color:rgb(220,220,220);
 	padding:2px;
 }
+
+
+/*
+ * EndBeto's Code
+ */
 
 /*image scroller code by jquery tools*/
 
@@ -216,7 +225,7 @@ html>body .rounded
 	position:relative;
 	overflow:hidden;
 	width: 89%;
-	height:90px;
+	height:140px;
 }
 
 .scrollableVert {
@@ -239,7 +248,7 @@ html>body .rounded
 	/* this cannot be too large */
 	width:20000em;
 	position:absolute;
-	height:90px;
+	height:inherit;
 }
 
 .scrollable .itemsVert {
@@ -270,21 +279,21 @@ a.browse {
 	width:20px;
 	height:20px;
 	float:left;
-	margin:27px 10px;
+	margin:10% 5px 10% 5px;
 	cursor:pointer;
 	font-size:1px;
 }
 
 
 /* right */
-a.right 				{ background-position: 0px -20px; clear:right; margin-right: 0px;}
-a.right:hover 		{ background-position:-20px -20px; }
+a.right 		{ background-position: 0px -20px; clear:right; margin-right: 0px;}
+a.right:hover 	{ background-position:-20px -20px; }
 a.right:active 	{ background-position:-40px -20px; } 
 
 
 /* left */
-a.left				{ margin-left: 0px; } 
-a.left:hover  		{ background-position:-20px 0; }
+/*a.left			{ margin-left: 0px; } */
+a.left:hover  	{ background-position:-20px 0; }
 a.left:active  	{ background-position:-40px 0; }
 
 /* up and down */
@@ -295,12 +304,12 @@ a.up, a.down		{
 }
 
 /* up */
-a.up:hover  		{ background-position:-20px 0; }
-a.up:active  		{ background-position:-40px 0; }
+a.up:hover  	{ background-position:-20px 0; }
+a.up:active  	{ background-position:-40px 0; }
 
 /* down */
-a.down 				{ background-position: 0 -20px; }
-a.down:hover  		{ background-position:-20px -20px; }
+a.down 			{ background-position: 0 -20px; }
+a.down:hover  	{ background-position:-20px -20px; }
 a.down:active  	{ background-position:-40px -20px; }
 
 /* disabled navigational button */
@@ -322,7 +331,3 @@ a.disabled {
 	top:.5em;
 	margin-bottom:3px;
 }
-
-/*
- * EndBeto's Code
- */

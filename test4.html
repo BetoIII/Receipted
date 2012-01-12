@@ -10,7 +10,21 @@
 	<meta name="description" content="Receipted provides beatifully designed e-mail receipts for merchants and customers for free.">
 	<meta name="keywords" content="receipts, html, e-mail, free, API, e-commerce, e-stores">
 	<LINK REL=StyleSheet HREF="css/custom-theme/style.css" TYPE="text/css">
-	<script src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script>	
+	<script src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script>
+<!-- Google Analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-28258970-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>	
 </head>
 <body>
 
@@ -107,7 +121,6 @@
 	         <img src="http://farm3.static.flickr.com/2741/5727617386_1a4a538273_t.jpg" />
 	      </div>
 
-	      <!-- 5-10 -->
 	      <div>
 	         <img src="http://farm6.static.flickr.com/5258/5420026877_c9ddea00b4_t.jpg" />
 	         <img src="http://farm4.static.flickr.com/3663/5800164873_8ccda1b79b_t.jpg" />
@@ -116,7 +129,6 @@
 	         <img src="http://farm4.static.flickr.com/3018/5724763417_4065e49e25_t.jpg" />
 	      </div>
 
-	      <!-- 10-15 -->
 	      <div>
 	         <img src="http://farm7.static.flickr.com/6157/6138872232_a86604043c_t.jpg" />
 	         <img src="http://farm1.static.flickr.com/154/427367591_60f6b29644_t.jpg" />
@@ -124,6 +136,7 @@
 	         <img src="http://farm7.static.flickr.com/6019/5886564766_4504018269_t.jpg" />
 	         <img src="http://farm5.static.flickr.com/4016/5081954578_36115f416b_t.jpg" />
 	      </div>
+
 		</center>
 	   </div>
 
@@ -135,10 +148,11 @@
 	$(function() {
 
 		// initialize scrollable
-		$(".scrollableVert").scrollable({ vertical: true, mousewheel: true, circular: true });
+		$(".scrollableVert").scrollable();
 
 	});
-	</script>	
+	</script>
+
 </div>
 	
 </body>
