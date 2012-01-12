@@ -25,7 +25,6 @@ table
 	font-weight:normal;
 	color:rgb(100,100,100);
 	font-family:"Century Gothic",Helvetica,Verdana;
-	font-size:90%;	
 }
 
 h2
@@ -225,7 +224,7 @@ html>body .rounded
 	position:relative;
 	overflow:hidden;
 	width: 89%;
-	height:140px;
+	height:145px;
 }
 
 .scrollableVert {
