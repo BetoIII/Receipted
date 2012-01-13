@@ -10,6 +10,13 @@ body
 	font-family:"Century Gothic",Helvetica,Verdana;
 }
 
+#homeBackground
+{
+	background-image: url('Bruins-Bar-Tab-Full.jpg');
+	background-repeat: no-repeat;
+	background-position:left center;
+}
+
 h4
 {
 	display:inline;
