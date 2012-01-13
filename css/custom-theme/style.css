@@ -17,6 +17,12 @@ body
 	background-position:left center;
 }
 
+p
+{
+	font-size:75%;
+	color:rgb(30,30,30);
+}
+
 h4
 {
 	display:inline;
@@ -207,13 +213,24 @@ html>body .rounded
 #suggestedProductsVert
 {
 	float:right;
-	position:relative;
-	bottom:420px;
-	right:13.2em;
+	padding:0px 10px;
+	position:absolute;
+	top:0.1em;
+	left:35em;
 	background-color:rgb(220,220,220);
-	padding:2px;
+	height:99%;
+	width:12em;
 }
 
+#didYouKnow
+{
+	padding:5px 5px 1px 5px;
+	background-color:white;
+}
+#facebook
+{
+	background-color:white;
+}
 
 /*
  * EndBeto's Code
@@ -239,8 +256,8 @@ html>body .rounded
 	/* required settings */
 	position:relative;
 	overflow:hidden;
-	width: 138px;
-	height:276px;
+	width: 70%;
+	height:145px;
 }
 
 /*
