@@ -213,13 +213,14 @@ html>body .rounded
 #suggestedProductsVert
 {
 	float:right;
-	padding:0px 10px;
+	padding:10px 10px;
 	position:absolute;
 	top:0.1em;
-	left:35em;
+	left:38.9em;
 	background-color:rgb(220,220,220);
-	height:99%;
+	height:96.5%;
 	width:12em;
+	font-size:90%;
 }
 
 #didYouKnow
@@ -227,11 +228,25 @@ html>body .rounded
 	padding:5px 5px 1px 5px;
 	background-color:white;
 }
+
+#twitter
+{
+	padding:5px 5px 1px 5px;
+	background-color:white;
+}
+	
 #facebook
 {
+	padding:5px 5px 1px 5px;
 	background-color:white;
 }
 
+#youMayAlsoLike
+{
+	padding:5px 5px 25px 5px;
+	background-color:white;
+	
+}
 /*
  * EndBeto's Code
  */
@@ -256,7 +271,7 @@ html>body .rounded
 	/* required settings */
 	position:relative;
 	overflow:hidden;
-	width: 70%;
+	width: 90%;
 	height:145px;
 }
 
@@ -274,11 +289,11 @@ html>body .rounded
 	height:inherit;
 }
 
-.scrollable .itemsVert {
+.scrollableVert .items {
 	/* this cannot be too large */
-	width:10000em;
+	width:20000em;
 	position:absolute;
-	height:20000em;
+	height:inherit;
 }
 
 /*
