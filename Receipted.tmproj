@@ -3,64 +3,70 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>css/custom-theme/style.css</string>
+	<string>testlevi.html</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>index.html</string>
 			<key>lastUsed</key>
-			<date>2012-01-13T21:03:02Z</date>
-		</dict>
-		<dict>
-			<key>filename</key>
-			<string>Test1.html</string>
-			<key>lastUsed</key>
-			<date>2012-01-13T18:59:54Z</date>
-		</dict>
-		<dict>
-			<key>filename</key>
-			<string>css/custom-theme/style.css</string>
-			<key>lastUsed</key>
-			<date>2012-01-14T01:54:31Z</date>
+			<date>2012-01-18T23:47:04Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
+			<string>Test1.html</string>
+			<key>lastUsed</key>
+			<date>2012-01-18T23:47:03Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>css/custom-theme/style.css</string>
+			<key>lastUsed</key>
+			<date>2012-01-19T01:28:36Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
 			<string>Test2.html</string>
 			<key>lastUsed</key>
-			<date>2012-01-13T18:59:54Z</date>
+			<date>2012-01-17T01:37:07Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>test3.html</string>
 			<key>lastUsed</key>
-			<date>2012-01-13T18:59:55Z</date>
+			<date>2012-01-17T01:37:02Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>test4.html</string>
 			<key>lastUsed</key>
-			<date>2012-01-13T19:58:19Z</date>
+			<date>2012-01-17T01:36:56Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>testbetabrand.html</string>
 			<key>lastUsed</key>
-			<date>2012-01-13T22:50:24Z</date>
+			<date>2012-01-18T23:50:54Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>test5.html</string>
 			<key>lastUsed</key>
-			<date>2012-01-13T19:58:19Z</date>
+			<date>2012-01-17T01:36:41Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>testbetabrand2.html</string>
 			<key>lastUsed</key>
-			<date>2012-01-14T01:54:31Z</date>
+			<date>2012-01-19T01:09:37Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>testlevi.html</string>
+			<key>lastUsed</key>
+			<date>2012-01-19T01:28:36Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
@@ -72,42 +78,42 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>26</integer>
+				<integer>55</integer>
 				<key>line</key>
-				<integer>83</integer>
+				<integer>100</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>29</integer>
+			<integer>46</integer>
 		</dict>
 		<key>Test2.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>26</integer>
+				<integer>55</integer>
 				<key>line</key>
-				<integer>83</integer>
+				<integer>113</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>24</integer>
+			<integer>59</integer>
 		</dict>
 		<key>css/custom-theme/style.css</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>19</integer>
+				<integer>6</integer>
 				<key>line</key>
-				<integer>245</integer>
+				<integer>376</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>199</integer>
+			<integer>314</integer>
 		</dict>
 		<key>index.html</key>
 		<dict>
@@ -128,102 +134,84 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>26</integer>
+				<integer>55</integer>
 				<key>line</key>
-				<integer>81</integer>
+				<integer>153</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>71</integer>
+			<integer>97</integer>
 		</dict>
 		<key>test4.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>55</integer>
 				<key>line</key>
-				<integer>170</integer>
+				<integer>98</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>108</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>103</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>170</integer>
-			</dict>
+			<integer>66</integer>
 		</dict>
 		<key>test5.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>55</integer>
 				<key>line</key>
-				<integer>146</integer>
+				<integer>158</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>102</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>102</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>146</integer>
-			</dict>
 		</dict>
 		<key>testbetabrand.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>51</integer>
 				<key>line</key>
-				<integer>109</integer>
+				<integer>128</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>99</integer>
+			<integer>78</integer>
 		</dict>
 		<key>testbetabrand2.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>8</integer>
+				<integer>36</integer>
 				<key>line</key>
-				<integer>132</integer>
+				<integer>126</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>118</integer>
+			<integer>94</integer>
+		</dict>
+		<key>testlevi.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>113</integer>
+				<key>line</key>
+				<integer>32</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>19</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
@@ -236,11 +224,12 @@
 		<string>test5.html</string>
 		<string>testbetabrand.html</string>
 		<string>testbetabrand2.html</string>
+		<string>testlevi.html</string>
 		<string>css/custom-theme/style.css</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{176, 144}, {1067, 774}}</string>
+	<string>{{0, 4}, {1710, 1174}}</string>
 </dict>
 </plist>

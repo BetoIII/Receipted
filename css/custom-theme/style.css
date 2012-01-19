@@ -6,10 +6,16 @@
 
 body
 {
-	background-color:rgb(236,210,107);
+	background-color:rgb(231,222,197);
 	font-family:"Century Gothic",Helvetica,Verdana;
 }
 
+.levihome
+{
+	font-family: Arial,Helvetica,Verdana;
+}
+
+}
 #homeBackground
 {
 	background-image: url('Bruins-Bar-Tab-Full.jpg');
@@ -98,7 +104,7 @@ a:hover
 	background-color:white;
 	margin:40px auto;
 	height:100%;
-	padding:5px 0px;
+	padding:5px 0px 70px 0px;
 	width:35em;	
 }
 
@@ -226,6 +232,7 @@ html>body .rounded
 #didYouKnow
 {
 	padding:5px 5px 1px 5px;
+	margin-bottom:10px;
 	background-color:white;
 }
 
@@ -233,12 +240,14 @@ html>body .rounded
 {
 	padding:5px 5px 1px 5px;
 	background-color:white;
+	margin-bottom:10px;
 }
 	
 #facebook
 {
 	padding:5px 5px 1px 5px;
 	background-color:white;
+	margin-bottom:10px;
 }
 
 #youMayAlsoLike
@@ -359,13 +368,11 @@ a.disabled {
 
 #poweredBy
 {
-	margin-top:30px;
 	width:90%;
 	font-size:60%;
 	text-align:right;
 	margin-left:auto;
 	margin-right:auto;
 	position:relative;
-	top:.5em;
-	margin-bottom:3px;
+	top:1em;
 }
