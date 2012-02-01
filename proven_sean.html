@@ -1,0 +1,108 @@
+<h2 style="color: #333; font-size: 18px;">Receipt for <?= $employer['EmployersJob']['title'] ?></h2>
+<p style="margin-top: 20px; margin-bottom: 5px; color: #333"><b>Transaction Information</b></p>
+<table width="400" style="font-family:Verdana;">
+    <tr style="border-bottom: 1px solid #ccc;">
+        <td align="left" width="300" style="padding: 0px; color: #666">Transaction ID</td>
+        <td align="left" style="padding: 0px;"><?= $transaction_id ?></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="font-size:0pt; line-height:0pt; text-align:left;"><div style="font-size:0pt; line-height:0pt; height:3px"><img src="<?= $p ?>/empty.gif" width="1" height="3" style="height:3px" alt="" /></div><div style="font-size:0pt; line-height:0pt; height:1px; background:#cccccc; "><img src="<?= $p ?>/empty.gif" width="1" height="1" style="height:1px" alt="" /></div><div style="font-size:0pt; line-height:0pt; height:3px"><img src="<?= $p ?>/empty.gif" width="1" height="3" style="height:3px" alt="" /></div></td>
+    </tr>
+    <tr style="border-bottom: 1px solid #ccc;">
+        <td align="left" width="300" style="padding: 0px; color: #666">Amount</td>
+        <td align="left" style="padding: 0px;">$<?= $bill_amount ?></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="font-size:0pt; line-height:0pt; text-align:left;"><div style="font-size:0pt; line-height:0pt; height:3px"><img src="<?= $p ?>/empty.gif" width="1" height="3" style="height:3px" alt="" /></div><div style="font-size:0pt; line-height:0pt; height:1px; background:#cccccc; "><img src="<?= $p ?>/empty.gif" width="1" height="1" style="height:1px" alt="" /></div><div style="font-size:0pt; line-height:0pt; height:3px"><img src="<?= $p ?>/empty.gif" width="1" height="3" style="height:3px" alt="" /></div></td>
+    </tr>
+    <tr style="border-bottom: 1px solid #ccc;">
+        <td align="left" width="300" style="padding: 0px; color: #666">Date</td>
+        <td align="left" style="padding: 0px;"><?= date("Y-m-d") ?></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="font-size:0pt; line-height:0pt; text-align:left;"><div style="font-size:0pt; line-height:0pt; height:3px"><img src="<?= $p ?>/empty.gif" width="1" height="3" style="height:3px" alt="" /></div><div style="font-size:0pt; line-height:0pt; height:1px; background:#cccccc; "><img src="<?= $p ?>/empty.gif" width="1" height="1" style="height:1px" alt="" /></div><div style="font-size:0pt; line-height:0pt; height:3px"><img src="<?= $p ?>/empty.gif" width="1" height="3" style="height:3px" alt="" /></div></td>
+    </tr>
+</table>
+
+<p style="margin-bottom: 5px; margin-top: 20px; color: #333"><b>Payment Information</b></p>
+<table width="400">
+    <tr style="border-bottom: 1px solid #ccc;">
+        <td align="left" width="300" style="padding: 5px 0px; color: #666">Cardholder Name</td>
+        <td align="left" style="padding: 0px;"><?= $credit_card->cardholderName ?></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="font-size:0pt; line-height:0pt; text-align:left;"><div style="font-size:0pt; line-height:0pt; height:3px"><img src="<?= $p ?>/empty.gif" width="1" height="3" style="height:3px" alt="" /></div><div style="font-size:0pt; line-height:0pt; height:1px; background:#cccccc; "><img src="<?= $p ?>/empty.gif" width="1" height="1" style="height:1px" alt="" /></div><div style="font-size:0pt; line-height:0pt; height:3px"><img src="<?= $p ?>/empty.gif" width="1" height="3" style="height:3px" alt="" /></div></td>
+    </tr>
+    <tr style="border-bottom: 1px solid #ccc;">
+        <td align="left" width="300" style="padding: 5px 0px; color: #666">Credit Card</td>
+        <td align="left" style="padding: 0px;">************<?= $credit_card->last4 ?></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="font-size:0pt; line-height:0pt; text-align:left;"><div style="font-size:0pt; line-height:0pt; height:3px"><img src="<?= $p ?>/empty.gif" width="1" height="3" style="height:3px" alt="" /></div><div style="font-size:0pt; line-height:0pt; height:1px; background:#cccccc; "><img src="<?= $p ?>/empty.gif" width="1" height="1" style="height:1px" alt="" /></div><div style="font-size:0pt; line-height:0pt; height:3px"><img src="<?= $p ?>/empty.gif" width="1" height="3" style="height:3px" alt="" /></div></td>
+    </tr>
+    <tr style="border-bottom: 1px solid #ccc;">
+        <td align="left" width="300" style="padding: 5px 0px; color: #666">Card Type</td>
+        <td align="left" style="padding: 0px;"><?= $credit_card->cardType ?></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="font-size:0pt; line-height:0pt; text-align:left;"><div style="font-size:0pt; line-height:0pt; height:3px"><img src="<?= $p ?>/empty.gif" width="1" height="3" style="height:3px" alt="" /></div><div style="font-size:0pt; line-height:0pt; height:1px; background:#cccccc; "><img src="<?= $p ?>/empty.gif" width="1" height="1" style="height:1px" alt="" /></div><div style="font-size:0pt; line-height:0pt; height:3px"><img src="<?= $p ?>/empty.gif" width="1" height="3" style="height:3px" alt="" /></div></td>
+    </tr>
+</table>
+
+<p style="margin-bottom: 5px; margin-top: 20px; color: #333"><b>Customer Information</b></p>
+<table width="400">
+    <tr style="border-bottom: 1px solid #ccc;">
+        <td align="left" width="300" style="padding: 5px 0px; color: #666">Customer ID</td>
+        <td align="left" style="padding: 0px;"><?= $employer['Employer']['id'] ?></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="font-size:0pt; line-height:0pt; text-align:left;"><div style="font-size:0pt; line-height:0pt; height:3px"><img src="<?= $p ?>/empty.gif" width="1" height="3" style="height:3px" alt="" /></div><div style="font-size:0pt; line-height:0pt; height:1px; background:#cccccc; "><img src="<?= $p ?>/empty.gif" width="1" height="1" style="height:1px" alt="" /></div><div style="font-size:0pt; line-height:0pt; height:3px"><img src="<?= $p ?>/empty.gif" width="1" height="3" style="height:3px" alt="" /></div></td>
+    </tr>
+    <tr style="border-bottom: 1px solid #ccc;">
+        <td align="left" width="300" style="padding: 5px 0px; color: #666">Company</td>
+        <td align="left" style="padding: 0px;"><?= $employer['Employer']['company_name'] ?></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="font-size:0pt; line-height:0pt; text-align:left;"><div style="font-size:0pt; line-height:0pt; height:3px"><img src="<?= $p ?>/empty.gif" width="1" height="3" style="height:3px" alt="" /></div><div style="font-size:0pt; line-height:0pt; height:1px; background:#cccccc; "><img src="<?= $p ?>/empty.gif" width="1" height="1" style="height:1px" alt="" /></div><div style="font-size:0pt; line-height:0pt; height:3px"><img src="<?= $p ?>/empty.gif" width="1" height="3" style="height:3px" alt="" /></div></td>
+    </tr>
+</table>
+
+<br>
+	<div id="suggestedProducts" style="width:90%; margin-left:auto; margin-right:auto;font-size:105%; background-color:rgb(220,220,220); padding:1px; -webkit-border-radius: 5px; -moz-border-radius: 5px;">
+			<h4>
+				<table width="100%" cellpadding="2px" border="0px" style="border-spacing:0px">
+					<tr>
+						<td><?= $employer['Employer']['company_name'] ?>, as a special thank you, we would like to offer you a FREE JOB POST by referring a friend. Simply click to redeem.
+						<td><a class="button" href="http://proven.com/employers/join" title="Redeem" style="font-weight: normal;
+						font-family: Helvetica, Arial, Verdana;
+						color:white;
+						display: inline-block;
+						line-height: normal;
+						padding: 9px 14px 9px;
+						-webkit-border-radius: 6px;
+						-moz-border-radius: 6px;
+						border-radius: 6px;
+						background-color: #57A957;
+						background-repeat: repeat-x;
+						background-image: -khtml-gradient(linear, left top, left bottom, from(#62c462), to(#57a957));
+						background-image: -moz-linear-gradient(top, #62c462, #57a957);
+						background-image: -ms-linear-gradient(top, #62c462, #57a957);
+						background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #62c462), color-stop(100%, #57a957));
+						background-image: -webkit-linear-gradient(top, #62c462, #57a957);
+						background-image: -o-linear-gradient(top, #62c462, #57a957);
+						background-image: linear-gradient(top, #62c462, #57a957);
+						text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+						border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+						border: 1px solid #CCC;
+						text-align:right;
+						text-decoration:none;">
+						Redeem</a>
+					</tr>
+				</table>
+			</h4>
+	</div>
+
+<br/><br/>
+<p>Thank you for your purchase.</p>
+<p>Sincerely,</p>
+<p>Proven.com</p>
